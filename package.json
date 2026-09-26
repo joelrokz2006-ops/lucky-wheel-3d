@@ -1,0 +1,21 @@
+{
+  "name": "lucky-wheel-3d",
+  "version": "1.0.0",
+  "description": "Full-Stack 3D Lucky Wheel Game with Three.js, React, Node.js & MongoDB",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm install && npm run install:backend && npm run install:frontend",
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"blue,magenta\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test": "cd backend && npm test"
+  },
+  "keywords": ["threejs", "react", "nodejs", "express", "mongodb", "3d-game", "lucky-wheel"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,130 @@
+.history-hud-card {
+  width: 100%;
+  max-width: 680px;
+  margin: 1rem auto 2rem;
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.4);
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.history-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.history-icon {
+  font-size: 1.2rem;
+}
+
+.history-title {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-main);
+  letter-spacing: 0.06em;
+}
+
+.history-count-badge {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+.no-history-box {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.no-history-icon {
+  font-size: 2.5rem;
+  opacity: 0.5;
+}
+
+.history-table-container {
+  overflow-x: auto;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.history-table th {
+  text-align: left;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.history-table td {
+  padding: 0.65rem 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.col-bet {
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+.mult-pill {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+}
+
+.pill-lose {
+  background: rgba(100, 116, 139, 0.2);
+  color: #94a3b8;
+}
+
+.pill-win {
+  background: rgba(16, 185, 129, 0.2);
+  color: var(--success);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.pill-jackpot {
+  background: rgba(245, 158, 11, 0.25);
+  color: var(--accent);
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  font-weight: 900;
+}
+
+.text-win {
+  color: var(--success);
+  font-weight: 700;
+}
+
+.text-lose {
+  color: var(--danger);
+}
+
+.col-time {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
